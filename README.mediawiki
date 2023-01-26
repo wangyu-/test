@@ -3,3 +3,9 @@
 <pre>
 asdasdasd
 </pre>
+
+|asdasd|
+|---|
+|${a_n} = \frac{1}{\pi }\int_{ - \pi }^\pi  {f(x) \cdot \cos nxdx,n = 0,1,2, \cdots }$|
+|${b_n} = \frac{1}{\pi }\int_{ - \pi }^\pi  {f(x) \cdot \sin nxdx,n = 1,2, \cdots }$|
+|$f(x) \sim \frac{{{a_0}}}{2} + \sum\limits_{n = 1}^\infty  {\left( {{a_n} \cdot \cos nx + {b_n} \cdot \sin nx} \right)}$|
