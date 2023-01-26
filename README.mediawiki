@@ -4,8 +4,22 @@
 asdasdasd
 </pre>
 
-|asdasd|
-|---|
-|${a_n} = \frac{1}{\pi }\int_{ - \pi }^\pi  {f(x) \cdot \cos nxdx,n = 0,1,2, \cdots }$|
-|${b_n} = \frac{1}{\pi }\int_{ - \pi }^\pi  {f(x) \cdot \sin nxdx,n = 1,2, \cdots }$|
-|$f(x) \sim \frac{{{a_0}}}{2} + \sum\limits_{n = 1}^\infty  {\left( {{a_n} \cdot \cos nx + {b_n} \cdot \sin nx} \right)}$|
+{|class="wikitable" style="background-color: #FFFFFF"
+!和差公式 (由欧拉公式可推)
+|-
+|$\sin (x + y) = \sin (x)\cos (y) + \cos (x)\sin (y)$
+|-
+|$\cos (x + y) = \cos (x)\cos (y) - \sin (x)\sin (y)$
+|}
+
+{|class="wikitable" style="background-color: #FFFFFF"
+!积化和差（由和差公式直接得出）
+|-
+|<math>\sin\theta\sin\phi={\cos(\theta-\phi)-\cos(\theta+\phi)\over2}</math>
+|-
+|<math>\cos\theta\cos\phi={\cos(\theta-\phi)+\cos(\theta+\phi)\over2}</math>
+|-
+|<math>\sin\theta\cos\phi={\sin(\theta+\phi)+\sin(\theta-\phi)\over2}</math>
+|-
+|<math>\cos\theta\sin\phi={\sin(\theta+\phi)-\sin(\theta-\phi)\over2}</math>
+|}
